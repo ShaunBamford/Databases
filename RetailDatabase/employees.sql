@@ -7,3 +7,12 @@ CREATE TABLE employees(
     managerID INTEGER,
     projectID INTEGER  
 );
+
+INSERT INTO employees(firstName,LastName,department,managerID,projectID)
+VALUES
+('Lyam', 'Zaahira','Cashier',1,563),
+('Ruben','Endika','Manager',1,563),
+('Oscar', 'Eteri','Cashier',1,563),
+('Sarra', 'Grigory','Stock Picker',2,43),
+('Yūna', 'Corinne','Cleaner',4,467),
+('Marius','Mirinda','Maintenance',4,467);
